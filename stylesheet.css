@@ -16,7 +16,11 @@ header h1{
     margin:0px;
 }
 
-main{
+.photo{
+    margin: 0px 20px;
+}
+
+.main{
     background-color: #ffffe5;
     padding: 2px 7px;
     margin: 0px 20px;
@@ -24,23 +28,15 @@ main{
     color: #6d350e;
 }
 
-main h2{
-    border-bottom: 1px solid #6d350e;
-}
-
-main a{
-    text-decoration: none;
-    color: #6d350e;
-    border-style: 4px solid #6d350e;
-}
-
-.photo{
-    margin: 0px 20px;
+.main h1{
+    margin:0px;
+    text-align: center;
 }
 
 
 footer{
     background-color: #8b4513;
+    color: #fff8dc;
     margin: 0px 20px;
     padding: 2px 2px; 
     font-family: serif;
@@ -49,5 +45,4 @@ footer{
 
 footer p{
     margin:0px;
-    color: #ffffe5;
 }
